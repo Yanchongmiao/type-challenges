@@ -12,6 +12,7 @@ importers:
       '@types/node': ^18.0.0
       '@types/prompts': ^2.4.2
       babel-eslint: ^10.1.0
+      cz-git: ^1.6.1
       eslint: ^8.18.0
       esno: ^0.16.3
       fast-glob: ^3.2.11
@@ -37,6 +38,7 @@ importers:
       '@types/node': 18.0.0
       '@types/prompts': 2.4.2
       babel-eslint: 10.1.0_eslint@8.18.0
+      cz-git: 1.6.1
       eslint: 8.18.0
       picocolors: 1.0.0
       prompts: 2.4.2
@@ -1177,6 +1179,10 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: true
+
+  /cz-git/1.6.1:
+    resolution: {integrity: sha512-+ohk/MFETERw4o/WpN3hUk7GM8oAwnaQI/uDuREGm4/B+G3DghGvNZQ/0MbFqZHWgKWvMzNZI6eKmPo0uPCu1A==}
     dev: true
 
   /debug/2.6.9:
