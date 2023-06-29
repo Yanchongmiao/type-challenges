@@ -6,7 +6,6 @@ type Concat<T extends readonly unknown[], N extends readonly unknown[]> = [
   ...T,
   ...N
 ];
-let aa: Concat<[], []> = [11, 22];
 type cases = [
   Expect<Equal<Concat<[], []>, []>>,
   Expect<Equal<Concat<[], [1]>, [1]>>,
