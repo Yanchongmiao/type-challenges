@@ -39,8 +39,8 @@ module.exports = {
       // confirmCommit: '是否提交或修改commit ?'
     },
     types: [
-      { value: 'easy', name: 'easy:     简单 ✨ A new feature' },
       { value: 'medium', name: 'medium:     中等 ✨ A new feature' },
+      { value: 'easy', name: 'easy:     简单 ✨ A new feature' },
       { value: 'hard', name: 'hard:     困难 ✨ A new feature' },
       { value: 'extreme', name: 'extreme:     地域 ✨ A new feature' },
       { value: 'fix', name: 'fix:      修复缺陷 🐛 A bug fix' },
